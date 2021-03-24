@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>   
+    <title>Validador CPF com CPF validado</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    
+  </head>
+  <body>   
+    <div class="container">
+      <br>
+      <br>
+      <br>
+      <h1>Validador CPF</h1>
+      <hr>
+      <div th:if="${verdade}" class="alert alert-success" role="alert">Foi validado com sucesso</div>
+      <div th:unless="${verdade}" class="alert alert-danger" role="alert">Não validado com sucesso</div>
+    
+
+     
+</html>
