@@ -1,3 +1,6 @@
+![GitHub repo size](https://img.shields.io/github/repo-size/vlruiz108/validador-Cpf)
+![GitHub](https://img.shields.io/github/license/vlruiz108/validador-Cpf)
+![Twitter Follow](https://img.shields.io/twitter/follow/Vanessa22607274?label=Seguir&style=social)
 # validador-Cpf
 
 Aplicação desenvolvida em aula programa gama academy com o intuito de aprender Testes Unitários e CI/CD.
